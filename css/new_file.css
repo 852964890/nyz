@@ -1,0 +1,411 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Microsoft YaHei UI";
+	text-decoration: none;
+	list-style: none;
+}
+
+.header {
+	height: 100px;
+	width: 100%;
+	background-color: #07cbc9;
+	position: fixed;
+	z-index: 9;
+}
+
+.logo {
+	margin-top: 26px;
+	margin-left: 100px;
+}
+
+.navbig {
+	position: absolute;
+	right: 50px;
+	top: 0px;
+}
+
+.navul li {
+	height: 100px;
+	width: 100px;
+	line-height: 100px;
+	text-align: center;
+	float: left;
+}
+
+.nava {
+	color: white;
+}
+
+.navul li:hover {
+	background-color: black;
+}
+
+.banner {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	top: 100px;
+}
+
+#img1 {
+	width: 100%;
+	height: auto;
+}
+
+.danhua {
+	width: 100%;
+	height: 715.29px;
+	background-color: black;
+	opacity: 0.5;
+	position: absolute;
+	top: 0px;
+}
+
+.kkbig {
+	width: 50%;
+	height: 715.29px;
+	/*				border: red 1px solid;*/
+	position: absolute;
+	top: 0px;
+	margin-left: 357.645px;
+	z-index: 8;
+}
+
+.kkbig input {
+	background-color: transparent;
+	height: 50px;
+	width: 100%;
+	margin-bottom: 20px;
+	border: 1px solid lightgray;
+	font-size: 16px;
+}
+
+.kkbig input:hover {
+	border: 1px solid #07CBC9;
+}
+
+.kk {
+	width: 100%;
+	height: 400px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: auto auto;
+}
+
+#t3 {
+	height: 100px;
+}
+
+#b1 {
+	width: 120px;
+	height: 40px;
+	background-color: transparent;
+	border: 1px solid lightgray;
+	position: absolute;
+	left: 50%;
+	margin-left: -50px;
+	color: white;
+}
+
+#b1:hover {
+	background-color: #07CBC9;
+	border: none;
+}
+
+.about {
+	width: 100%;
+	height: auto;
+	margin-top: 815.29px;
+	position: absolute;
+}
+
+#about {
+	text-align: center;
+	margin-top: 30px;
+	font-size: 46px;
+	font-weight: 500;;
+}
+
+#h1 {
+	background-color: #07CBC9;
+	border: solid 1px #07CBC9;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+#aboutd {
+	margin-top: 10px;
+	text-align: center;
+	color: gray;
+}
+
+#img2 {
+	margin-top: 30px;
+	position: absolute;
+	left: 50%;
+	margin-left: -325px;
+}
+
+.img2math1 {
+	width: 250px;
+	height: 150px;
+	border: 1px solid #07CBC9;
+	margin-top: 30px;
+	position: absolute;
+	right: 150px;
+}
+
+.img2math2 {
+	width: 250px;
+	height: 150px;
+	border: 1px solid #07CBC9;
+	margin-top: 200px;
+	position: absolute;
+	right: 150px;
+}
+
+#i2m1m {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 30px;
+	font-weight: 500;
+}
+
+#i2m1t {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.aword {
+	height: 435px;
+	width: 650px;
+	margin-top: 30px;
+}
+
+.awordt {
+	font-size: 32px;
+	font-weight: 500;
+	margin-left: 250px;
+}
+
+.awordt1 {
+	font-size: 32px;
+	font-weight: 500;
+	margin-left: 230px;
+}
+
+.tmk {
+	width: 400px;
+	height: 300px;
+	border: 2px solid #D3D3D3;
+	/*opacity: 0.5;*/
+	background-color: rgba(255,255,255 ,0.5);
+	margin-top: 30px;
+	margin-left: 220px;
+	z-index: 9;
+	position: absolute;
+}
+
+.tmkt {
+	margin-top: 30px;
+	margin-left: 20px;
+	line-height: 30px;
+	z-index: 10;
+	position: absolute;
+}
+
+#b2 {
+	width: 100px;
+	height: 45px;
+	margin-left: 20px;
+	margin-top: 200px;
+	background-color: #000000;
+	color: white;
+	border: 2px solid black;
+	position: absolute;
+}
+
+#b2:hover {
+	background-color: white;
+	color: black;
+}
+
+.patbig {
+	width: 100%;
+	height: auto;
+	/*				border: 1px red solid;*/
+	margin-top: 50px;
+	float: left;
+}
+
+.ptimg {
+	width: 380px;
+	height: auto;
+}
+
+.ptimg2 {
+	width: 380px;
+	height: 380px;
+	float: right;
+}
+
+.patimg1 {
+	width: 50%;
+	height: 380px;
+	background-color: #07CBC9;
+	float: left;
+	position: relative;
+}
+
+.patimg2 {
+	width: 50%;
+	height: 380px;
+	background-color: #07CBC9;
+	float: right;
+	position: relative;
+}
+
+.patimg3 {
+	width: 50%;
+	height: 380px;
+	background-color: #07CBC9;
+	float: left;
+	position: relative;
+}
+
+.patimg4 {
+	width: 50%;
+	height: 380px;
+	background-color: #07CBC9;
+	float: right;
+	position: relative;
+}
+
+.tittlebig {
+	width: 350px;
+	height: 350px;
+	position: absolute;
+	right: 13px;
+	top: 15px;
+}
+
+.tittlebig2 {
+	width: 350px;
+	height: 350px;
+	position: absolute;
+	float: left;
+	left: 13px;
+	top: 15px;
+}
+
+.tittle {
+	color: white;
+	font-size: 36px;
+	font-weight: 400;
+	position: absolute;
+	top: 10px;
+	left: 50px;
+}
+
+.talk {
+	color: white;
+	font-size: 20px;
+	font-weight: 300;
+	position: absolute;
+	top: 70px;
+	left: 50px;
+	line-height: 30px;
+}
+
+.talksmall {
+	color: white;
+	font-size: 16px;
+	font-weight: 200;
+	position: absolute;
+	top: 170px;
+	left: 50px;
+}
+
+.b3 {
+	width: 100px;
+	height: 45px;
+	margin-left: 125px;
+	margin-top: 300px;
+	background-color: #000000;
+	color: white;
+	border: 2px solid black;
+}
+
+.b3:hover {
+	background-color: transparent;
+}
+
+.gallery {
+	height: 900px;
+	width: 100%;
+	position: absolute;
+	margin-top: 2360px;
+}
+
+#gallery {
+	text-align: center;
+	font-size: 46px;
+	font-weight: 500;
+}
+
+.gallerypbig {
+	height: auto;
+	width: 100%;
+	position: absolute;
+	margin-top: 50px;
+}
+
+.galleryp {
+	height: auto;
+	width: 1140px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto auto;
+}
+
+.gintop {
+	height: 290px;
+	width: 360px;
+	background-color: #000000;
+	color: white;
+	float: left;
+	margin-bottom: 30px;
+}
+
+#gtp1 {
+	margin-right: 30px;
+}
+
+.gpt {
+	line-height: 40px;
+	margin-left: 20px;
+}
+
+.footer {
+	height: 70px;
+	width: 100%;
+	background-color: #07CBC9;
+	margin-top: 3250px;
+	position: absolute;
+}
+
+#banquan {
+	line-height: 70px;
+	text-align: center;
+	color: white;
+	font-size: 14px;
+}
